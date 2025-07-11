@@ -13,6 +13,44 @@
             object-fit: cover;
             border-radius: 10px;
         }
+        @media (max-width: 576px) {
+            .carousel-item img {
+                height: 180px;
+            }
+            .main-content {
+                margin-bottom: 90px;
+            }
+            .product-image {
+                height: 140px;
+            }
+            .product-card {
+                font-size: 0.95rem;
+                min-width: 150px;
+            }
+            .navbar-bottom {
+                font-size: 0.95rem;
+                padding-bottom: 10px;
+            }
+            .search-bar {
+                width: 100px;
+                font-size: 0.95rem;
+            }
+            .profile-modal {
+                max-width: 95vw;
+            }
+            .filter-sidebar {
+                width: 90vw;
+                left: -90vw;
+                padding: 10px;
+            }
+            .filter-sidebar.active {
+                left: 0;
+            }
+            #productGrid > .col-6 {
+                flex: 0 0 100%;
+                max-width: 100%;
+            }
+        }
         .carousel-caption {
             background: rgba(0,0,0,0.5);
             border-radius: 8px;
